@@ -23,7 +23,7 @@ test.beforeEach(async () => {
 
 })
 
-test.only("should ", async () => {
+test("should check for the preexisting records", async () => {
 
   const alreadyExistingCheck = await utils.checkForPreexistingRecords(dbConnection, "VOO", 1672549200000 )
 
